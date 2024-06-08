@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body{
+    font-family: system-ui;
+    width: 90%;
+    margin-inline: auto;
+    background: linear-gradient( to top left, purple 49%, red 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box {
+    border: 1px transparent;
+    border-radius: 6%;
+    padding: 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+}
